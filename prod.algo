@@ -1,4 +1,4 @@
-PROCEDURE dot_product(v1[]:INTEGER,v2[]:INTEGER)
+PROCEDURE dot_product(v1[]:INTEGER,v2[]:INTEGER,ps:INTEGER)
 VAR
     ps:INTEGER
     i:INTEGER
@@ -16,7 +16,7 @@ END
 FUNCTION dot-product(v1[] : ARRAY_OF INTEGER;,v2[] : ARRAY_OF INTEGER[]) : INTEGER
 VAR
     ps:INTEGER
-    i,j:INTEGER
+    i:INTEGER
 BEGIN
      ps = 0;
     for( i = 0; i < v1.length; i++){
@@ -28,7 +28,7 @@ BEGIN
     
    END
 
-ALGORITHM algorithm_name
+ALGORITHM dot_product
 VAR
   
 BEGIN
